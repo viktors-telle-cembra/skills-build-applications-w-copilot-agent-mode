@@ -96,11 +96,12 @@ DATABASES = {
         }
     }
 }
+
 # CORS settings
-CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOWED_ORIGINS = [
+    "https://literate-space-trout-q7x4r5pp76pph9w55-3000.app.github.dev",
+]
 CORS_ALLOW_CREDENTIALS = True
-CORS_ALLOW_HEADERS = ['*']
-CORS_ALLOW_METHODS = ['*']
 
 
 # Password validation
